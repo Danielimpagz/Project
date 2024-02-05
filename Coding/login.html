@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="short icon" href="image/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        function redirectToHomePage() {
+            // You can replace 'home.html' with the actual URL of your home page
+            window.location.href = 'index.html';
+        }
+    </script>
+</head>
+<body>
+
+    <div class="hero">
+        <div class="login_form">
+            <h1>Login</h1>
+            <form class="input_box">
+                <input type="text" class="field" placeholder="User Name">
+                <input type="password" class="field" maxlength="99" placeholder="Password">
+                <input type="checkbox" class="check_box"><p>Remember Password</p>
+
+                <button type="button" class="submit_btn" onclick="redirectToHomePage()">Login</button>
+
+                <div class="social_icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-google"></i>
+                </div>
+
+                <div class="tag">
+                    <span>Sign Up New Account?.</span>
+                    <a href="signup.html">Register.</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
